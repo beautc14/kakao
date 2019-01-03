@@ -9,15 +9,17 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
     />
     <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
         <div class="header__column">
           <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
         </div>
-        <div class="header__column"></div>
-        <span class="header__time">18:36</span>
+        <div class="header__column">
+          <span class="header__time">18:36</span>
+        </div>
         <div class="header__column">
           <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
           <span class="header__battery"
@@ -25,14 +27,17 @@
           ></span>
         </div>
       </div>
-      <div class="header__bottom"></div>
-      <div class="header__column"><span class="header__text">Manage</span></div>
-      <div class="header__column">
-        <span class="header__text"
-          >Friends<span class="header__number">1</span></span
-        >
+      <div class="header__bottom">
+        <div class="header__column">
+          <span class="header__text">Manage</span>
+        </div>
+        <div class="header__column">
+          <span class="header__text"
+            >Friends<span class="header__number"> 1</span></span
+          >
+        </div>
+        <div class="header__column"><i class="fa fa-cog fa-lg"></i></div>
       </div>
-      <div class="header__column"><i class="fa fa-cog fa-lg"></i></div>
     </header>
     <main class="friends">
       <div class="search-bar">
@@ -49,8 +54,10 @@
               <img src="images/avatar.jpg" alt="avatar" />
               <span class="friends__section-name">Chaewon</span>
             </a>
+          </div>
+          <div class="friends__section-row">
             <img src="images/avatar.jpg" alt="avatar" />
-            <span class="friends__section-name">Friends Names Display</span>
+            <span class="friends__section-name">Friends' Names Display</span>
           </div>
         </div>
       </section>
@@ -61,8 +68,8 @@
         <div class="friends__section-rows">
           <div class="friends__section-row">
             <div class="friends__section-column">
-              <span class="friends__section-name">JY</span>
               <img src="images/avatar.jpg" alt="avatar" />
+              <span class="friends__section-name">JY</span>
             </div>
             <span class="friends__section-tagline">
               Life is short, So live your life.
