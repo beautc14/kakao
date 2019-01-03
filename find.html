@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="top=header">
+    <header class="top-header">
       <div class="header__top">
         <div class="header__column">
           <i class="fa fa-plane"></i> <i class="fa fa-wifi"></i>
         </div>
-        <div class="header__column"></div>
-        <span class="header__time">18:36</span>
+        <div class="header__column">
+          <span class="header__time">18:36</span>
+        </div>
         <div class="header__column">
           <i class="fa fa-moon-o"></i> <i class="fa fa-bluetooth-b"></i>
           <span class="header__battery"
@@ -26,10 +27,18 @@
           ></span>
         </div>
       </div>
-      <div class="header__bottom"></div>
-      <div class="header__column"><span class="header__text">Edit</span></div>
-      <div class="header__column"><span class="header__text">Find</span></div>
-    </header class="top=header">
+      <div class="header__bottom">
+        <div class="header__column">
+          <span class="header__text">Manage</span>
+        </div>
+        <div class="header__column">
+          <span class="header__text"
+            >Friends<span class="header__number"> 1</span></span
+          >
+        </div>
+        <div class="header__column"><i class="fa fa-cog fa-lg"></i></div>
+      </div>
+    </header>
     <main class="find">
       <section class="find__options">
         <div class="find__option">
@@ -41,7 +50,7 @@
           <span class="find__option-title">QR code</span>
         </div>
         <div class="find__option">
-          <i class="fa fa-phone fa-2x"></i>
+          <i class="fa fa-phone fa-lg"></i>
           <span class="find__option-title">Shake</span>
         </div>
         <div class="find__option">
@@ -62,7 +71,7 @@
       <a href="index.html" class="tab-bar__tab">
         <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
       </a>
-      <a href="chats.html" class="tab-bar__tabd">
+      <a href="chats.html" class="tab-bar__tab">
         <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
       </a>
       <a href="find.html" class="tab-bar__tab tab-bar__tab--selected">
