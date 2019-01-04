@@ -1,0 +1,134 @@
+
+.body-chat {
+  padding-bottom: 0;
+}
+
+
+.chat-header,
+.chat-header a {
+  background-color: #94B4D5;
+  color: black;
+}
+
+.chat {
+  background-color: #94B4D5;
+  height: 100vh;
+  padding-top: 15px;
+}
+
+.chat .date-divider {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0,0,0,0.5);
+}
+
+.chat__message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.chat__message-time {
+  font-size: 10px;
+  color: rgba(0,0,0,0.5);
+}
+
+.chat__message-body {
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.chat__message--from-me {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.chat__message--from-me .chat__message-body {
+background-color: #FFe934;
+margin-left: 5px;
+}
+
+.chat__message--to-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.chat__message--to-me img{
+  height: 35px;
+  border-radius: 50%;
+  align-self: flex-start;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.chat__message--to-me .chat__message-body {
+background-color: white;
+}
+
+.chat__message .chat__message-username {
+  font-size:12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+ .chat__message-center {
+  display: flex;
+  flex-direction: column;
+}
+
+.type-message {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 45px;
+  background: #EFE9EE;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.type-message__input {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.type-message__input i {
+  margin: 0 5px;
+}
+
+.type-message i {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type-message__input input {
+  height: 25px;
+  width: 350px;
+  border: none;
+}
+
+.type-message .fa-plus {
+  color: #b4b4b4;
+  margin-right: 10px;
+}
+
+.type-message__input .fa-smile-o {
+  color: #b4b4b4;
+}
+
+.type-message__input .record-message {
+  background-color: #FFDC00;
+  color: #7D5831;
+  padding: 6px;
+}
