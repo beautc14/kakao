@@ -12,10 +12,15 @@
   background-color: #f1f2f3;
   font-size: 13px;
   text-align: center;
+  transition: all .3s linear;
 }
+
 .search-bar input:focus {
-  outline:none;
+  outline: none;
+  background-color: rgb(68, 64, 66);
+  color: white;
 }
+
 .search-bar i {
   position: absolute;
   color: #bbbbbb;
